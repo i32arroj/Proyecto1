@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
         document.getElementById("myResul").style.display="none"; // Ocultar de primer plano "Resultados"
         document.getElementById("myResul1").style.display="none";
         })
@@ -24,17 +24,6 @@ $(document).ready(function(){
             document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
             document.getElementById("myResul1").style.display="block";
         }
-        
-        function mostrardos(){ //Función que muestra los resultados
-            var ciudad = $('#ciudadSeleccionadados').val();
-            //Utilizar variable ciudad para extraer JSON
-            //Mostra resultados
-            results(ciudad); // Ejecutar función Results para obtener los datos según la ciudad
-            document.getElementById("myResul").style.display="block"; // Mostrar resultados al pulsar "Buscar"
-            document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
-            document.getElementById("myResul1").style.display="block";
-        }
-
         
          function mostrarUbicacion() //Función que muestra rsultados según la localización
             {
@@ -130,3 +119,7 @@ $(document).ready(function(){
              
             });
         };
+              
+        
+             
+     

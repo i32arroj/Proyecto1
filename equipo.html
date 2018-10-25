@@ -24,12 +24,34 @@
     <link rel="stylesheet" type="text/css" href="fotos.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     
-      
+    
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
 
+        .hero-image {
+          background-image: url("img/bg-masthead.jpg");
+          background-color: #cccccc;
+          height: 500px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+         }
+</style>  
   </head>
 
   <body>
-  
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
@@ -37,49 +59,52 @@
         <!--<a class="btn btn-primary" href="#">Sign In</a>-->
       </div>
     </nav>
+    
 <!--logos de gsdolinas-->
-<div class="slideshow-container">
+<div class="hero-image">
+     <div class="hero-text">
+        <div class="slideshow-container">
 
- <div class="mySlides fade">
-     <div class="numbertext"></div>
-     <img src="img/a.jpg" style="width:100%">
-  
- </div>
+         <div class="mySlides fade">
+             <div class="numbertext"></div>
+             <img src="img/a.jpg" style="width:100%">
 
-  <div class="mySlides fade">
-       <div class="numbertext"></div>
-       <img src="img/b.jpg" style="width:100%">
-       
-  </div>
+         </div>
 
-   <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="img/c.jpg" style="width:100%">
-     
-   </div>
-    
-    
-   <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="img/d.jpg" style="width:100%">
-     
-   </div>
-    
-    
-   <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="img/e.jpg" style="width:100%">
-      
-   </div>
-    
-   <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="img/f.jpg" style="width:100%">
-      
-   </div>
+         <div class="mySlides fade">
+               <div class="numbertext"></div>
+               <img src="img/b.jpg" style="width:100%">
 
-</div>
-  <br>
+         </div>
+
+           <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="img/c.jpg" style="width:100%">
+
+           </div>
+
+    
+        <div class="mySlides fade">
+           <div class="numbertext"></div>
+           <img src="img/d.jpg" style="width:100%">
+
+        </div>
+
+
+        <div class="mySlides fade">
+           <div class="numbertext"></div>
+           <img src="img/e.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+           <div class="numbertext"></div>
+           <img src="img/f.jpg" style="width:100%">
+
+        </div>
+
+     </div>
+     <br>
 
     <div style="text-align:center">
       <span class="dot"></span> 
@@ -89,23 +114,38 @@
       <span class="dot"></span>
       <span class="dot"></span>
     </div>
+  <br>
+ 
+
+  
+
 <!--servicios ofrecidos-->
-<h3>Disfruta de la carretera,ahorrar en elcombustible</h3>
-<ul>
-    <li>Analizamos el precio de la gasolina y diesel de mas 1000<span>gasolineras de Andalucia</span></li>
-    <li>Te indicamos la estacion de servicio mas barata y cercana a donde te encuentas</li>
-    <li>Te ayudamos a elegir la gasolinera con los precios mas bajos</li>
-</ul>
+        <div class="text-warning">
+            <div style="color:White;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue">
+                <h2>Disfruta de la carretera,ahorrar en el combustible</h2>
+                <ul>
+                     <li>Analizamos el precio de la gasolina y diesel de mas 1000 gasolineras de Andalucia </li>     
+                     <li>Te indicamos la estacion de servicio mas barata y cercana a donde te encuentas </li>
+                     <li>Te ayudamos a elegir la gasolinera con los precios mas bajos </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 <!-- Equipo -->
-    <section class="testimonials text-center bg-light" class="headr">
+   <section class="testimonials text-center bg-light" class="headr">
       <div class="container">
         <h2 class="mb-5">Equipo</h2>
         <div class="row">
          
           <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid  rounded-circle mb-3" src="img/cristina.jpg" alt="Smiley face" width="150" height="130">
+                <img class="img-fluid  rounded-circle mb-3" src="img/cristina.jpg" alt="Smiley face" width="150" height="110">
               <h5>Cristina.</h5>
               </div>
           </div>
@@ -130,6 +170,10 @@
         </div>
       </div>
     </section>
+
+
+
+ 
 
     <!-- Footer -->
     <footer class="footer bg-light">

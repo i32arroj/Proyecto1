@@ -20,11 +20,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="fotos.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+      
 
   </head>
 
   <body>
-
+  
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
@@ -32,37 +37,96 @@
         <!--<a class="btn btn-primary" href="#">Sign In</a>-->
       </div>
     </nav>
-   
+<!--logos de gsdolinas-->
+<div class="slideshow-container">
+
+ <div class="mySlides fade">
+     <div class="numbertext"></div>
+     <img src="img/a.jpg" style="width:100%">
+  
+ </div>
+
+  <div class="mySlides fade">
+       <div class="numbertext"></div>
+       <img src="img/b.jpg" style="width:100%">
+       
+  </div>
+
+   <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/c.jpg" style="width:100%">
+     
+   </div>
+    
+    
+   <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/d.jpg" style="width:100%">
+     
+   </div>
+    
+    
+   <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/e.jpg" style="width:100%">
+      
+   </div>
+    
+   <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/f.jpg" style="width:100%">
+      
+   </div>
+
+</div>
+  <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+<!--servicios ofrecidos-->
+<h3>Disfruta de la carretera,ahorrar en elcombustible</h3>
+<ul>
+    <li>Analizamos el precio de la gasolina y diesel de mas 1000<span>gasolineras de Andalucia</span></li>
+    <li>Te indicamos la estacion de servicio mas barata y cercana a donde te encuentas</li>
+    <li>Te ayudamos a elegir la gasolinera con los precios mas bajos</li>
+</ul>
+
 <!-- Equipo -->
-    <section class="testimonials text-center bg-light">
+    <section class="testimonials text-center bg-light" class="headr">
       <div class="container">
         <h2 class="mb-5">Equipo</h2>
         <div class="row">
+         
           <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid card-img mb-3" src="img/crs.jpg" alt="Smiley face" width="42" height="50" >
+                <img class="img-fluid  rounded-circle mb-3" src="img/cristina.jpg" alt="Smiley face" width="150" height="130">
               <h5>Cristina.</h5>
               </div>
           </div>
           <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid card-img mb-3" src="img/moha.jpg" alt="Smiley face" width="42" height="50">
+              <img class="img-fluid  rounded-circle  mb-3" src="img/mohammed.jpg" alt="Smiley face" width="150" height="150">
               <h5>Mohammed.</h5>
               </div>
           </div>
           <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid card-img mb-3" src="img/vct.jpg"alt="Smiley face" width="42" height="50">
+              <img class="img-fluid rounded-circle mb-3" src="img/victoria.jpg" alt="Smiley face" width="150" height="150" >
               <h5>Victoria.</h5>
               </div>
           </div>
-            <div class="col-lg-3">
+          <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid card-img mb-3" src="img/testimonials-2.jpg" alt="Smiley face" width="42" height="50">
+              <img class="img-fluid  rounded-circle  mb-3" src="img/jose.jpg" alt="Smiley face"  width="150" height="150">
               <h5>Jose.</h5>
             </div>
-          </div>
-            
+          </div>             
         </div>
       </div>
     </section>
@@ -117,7 +181,28 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+   <script>
+   var slideIndex = 0;
+             showSlides();
 
-  </body>
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 
+</script> 
+</body>
 </html>

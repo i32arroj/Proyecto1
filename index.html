@@ -17,7 +17,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -60,6 +60,7 @@
             <h1 class="mb-5">Gasolinera más barata en ...</h1>
           </div>
             <div class="col-md-10 col-lg-8 col-xl-4 mx-auto">
+              
               <select id="ciudadSeleccionada" class="form-control form-control-lg">
                 <option value="Almeria">Almería</option>
                 <option value="Cadiz">Cádiz</option>
@@ -70,8 +71,9 @@
                 <option value="Malaga" selected>Málaga</option>
                 <option value="Sevilla">Sevilla</option>
               </select>
+                <br>
                 <input type="button" class="btn btn-block btn-block btn-primary" value="Buscar" onclick="mostrar()">
-                <input type="button" onclick="mostrarUbicacion()" value="Localización">
+                <a onclick="mostrarUbicacion()"><i class="fas fa-location-arrow" style="font-size:24px;"></i></a>
           </div>
         </div>
       </div>
@@ -97,14 +99,7 @@
                       <th>Google Maps</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                      <th>Combustible</th>
-                      <th>Provincia</th>
-                      <th>Localidad</th>
-                      <th>Empresa</th>
-                      <th>Precio (€) / Litro</th>
-                      <th>Google Maps</th>
-                  </tfoot>
+                 
                 <tbody id="filas">
                   </tbody>
                 </table>

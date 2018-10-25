@@ -42,10 +42,23 @@
                         $(".ciudad").html(ciudad);
                         
                         //Se convierte el valor devuelto por openstreetmap
-                        if(ciudad=="Málaga"){
+                        if(ciudad=="Málaga")
                             ciudad="malaga";
+                        else
+                        if(ciudad=="Córdoba")
+                            ciudad="cordoba";
+                        else
+                        if(ciudad=="Cádiz")
+                            ciudad="cadiz";
+                        else
+                        if(ciudad=="Almería")
+                            ciudad="almeria";
+              
                             results(ciudad);
-                        }
+                            document.getElementById("myResul").style.display="block"; // Mostrar resultados al pulsar "Buscar"
+                            document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
+                            document.getElementById("myResul1").style.display="block";
+                        
                             
                 
                         //Llamar a la función mostrar pasánsole la variable ciudad
@@ -76,7 +89,7 @@
                      }
                     
                   encontrados+="<tr><td>"+data[i].combustible+"</td><td>"+data[i].provincia+"</td><td>"+data[i].ciudad+"</td><td>"+data[i].nombgasolinera+"</td><td>"+data[i].precio+"</td><td><a href="+data[i].url+">"+data[i].direccion+"</a></td></tr>";
-               }}
+               }} 
       
             $("#filas").html(encontrados);
              

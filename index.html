@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Gasolinera más barata de la Provincia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,9 +20,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
+    
     
   </head>
 
@@ -31,13 +33,26 @@
     <!-- Navigation -->
     <nav class="navbar navbar-nav bg-light static-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Gasolinera más barata de la ciudad</a>
+        <a class="navbar-brand" href="index.html">Gasolinera más barata de la Provincia</a>
         <!--<a class="btn btn-primary" href="#">Sign In</a>-->
+        <div class="col-md-2 col-lg-2 col-xl-2 buttonfor" id="myResul1">
+          <select id="ciudadSeleccionadados" class="form-control form-control-lg buttonfor" onclick="mostrardos()">
+            <option value="" selected>Cambiar ciudad</option>
+            <option value="Almeria">Almería</option>
+            <option value="Cadiz">Cádiz</option>
+            <option value="Cordoba">Córdoba</option>
+            <option value="Granada">Granada</option>
+            <option value="Huelva">Huelva</option>
+            <option value="Jaen">Jaén</option>
+            <option value="Malaga">Málaga</option>
+            <option value="Sevilla">Sevilla</option>
+          </select> 
+      </div>
       </div>
     </nav>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="masthead text-white text-center" id="myPrin">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -45,23 +60,58 @@
             <h1 class="mb-5">Gasolinera más barata en ...</h1>
           </div>
             <div class="col-md-10 col-lg-8 col-xl-4 mx-auto">
-                <form action="resultados.html">
               <select id="ciudadSeleccionada" class="form-control form-control-lg">
-                <option value="almeria">Almería</option>
-                <option value="cadiz">Cádiz</option>
-                <option value="cordoba">Córdoba</option>
-                <option value="granada">Granada</option>
-                <option value="huelva">Huelva</option>
-                <option value="jaen">Jaén</option>
-                <option value="malaga" selected>Málaga</option>
-                <option value="sevilla">Sevilla</option>
+                <option value="Almeria">Almería</option>
+                <option value="Cadiz">Cádiz</option>
+                <option value="Cordoba">Córdoba</option>
+                <option value="Granada">Granada</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Jaen">Jaén</option>
+                <option value="Malaga" selected>Málaga</option>
+                <option value="Sevilla">Sevilla</option>
               </select>
-                <input type="submit" class="btn btn-block btn-block btn-primary" value="Buscar">
+                <input type="button" class="btn btn-block btn-block btn-primary" value="Buscar" onclick="mostrar()">
                 <input type="button" onclick="mostrarUbicacion()" value="Localización">
-            </form>
-                  
-                 
           </div>
+        </div>
+      </div>
+    </header>
+
+     <!-- Masthead -->
+     <header class="masthead text-white text-center resul" id="myResul">
+      <div class="overlay"></div>
+     <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">RESULTADOS ENCONTRADOS</h1>
+         
+            
+          <div class="card mb-3 text">
+              <div class="table-responsives">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Combustible</th>
+                      <th>Provincia</th>
+                      <th>Localidad</th>
+                      <th>Empresa</th>
+                      <th>Precio (€) / Litro</th>
+                      <th>Google Maps</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                      <th>Combustible</th>
+                      <th>Provincia</th>
+                      <th>Localidad</th>
+                      <th>Empresa</th>
+                      <th>Precio (€) / Litro</th>
+                      <th>Google Maps</th>
+                  </tfoot>
+                <tbody id="filas">
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </header>

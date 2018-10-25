@@ -1,0 +1,45 @@
+th{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+td{
+    color: black;
+    font-weight: bold;
+}
+.tablita{
+    background-color: rgba(240, 0, 0, 0.329);
+}
+.text {
+    color:black;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:active {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+tr:hover {
+    color: black;
+    background-color:rgba(75, 75, 139, 0.637);
+    text-decoration: none;
+}
+
+.buttonfor { 
+    padding: 5px;
+    right: 0px;
+    font-size: medium;
+}
+
+

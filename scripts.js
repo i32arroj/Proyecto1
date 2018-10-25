@@ -1,12 +1,11 @@
-
-    $(document).ready(function(){
+$(document).ready(function(){
         document.getElementById("myResul").style.display="none"; // Ocultar de primer plano "Resultados"
         document.getElementById("myResul1").style.display="none";
         })
 
 
       
-      function mostrar(){ //Función que muestra los resultados
+      function mostrarCiudad(){ //Función que muestra los resultados
             var ciudad = $('#ciudadSeleccionada').val();
             //Utilizar variable ciudad para extraer JSON
             //Mostra resultados
@@ -15,7 +14,17 @@
             document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
             document.getElementById("myResul1").style.display="block";
         }
-
+        
+      function mostrarProvincia(){ //Función que muestra los resultados
+            var ciudad = $('#ciudadSeleccionada').val();
+            //Utilizar variable ciudad para extraer JSON
+            //Mostra resultados
+            resultsProv(ciudad); // Ejecutar función Results para obtener los datos según la ciudad
+            document.getElementById("myResul").style.display="block"; // Mostrar resultados al pulsar "Buscar"
+            document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
+            document.getElementById("myResul1").style.display="block";
+        }
+        
         function mostrardos(){ //Función que muestra los resultados
             var ciudad = $('#ciudadSeleccionadados').val();
             //Utilizar variable ciudad para extraer JSON
@@ -43,18 +52,18 @@
                         
                         //Se convierte el valor devuelto por openstreetmap
                         if(ciudad=="Málaga")
-                            ciudad="malaga";
+                            ciudad="Malaga";
                         else
                         if(ciudad=="Córdoba")
-                            ciudad="cordoba";
+                            ciudad="Cordoba";
                         else
                         if(ciudad=="Cádiz")
-                            ciudad="cadiz";
+                            ciudad="Cadiz";
                         else
                         if(ciudad=="Almería")
-                            ciudad="almeria";
+                            ciudad="Almeria";
               
-                            results(ciudad);
+                            resultsProv(ciudad);
                             document.getElementById("myResul").style.display="block"; // Mostrar resultados al pulsar "Buscar"
                             document.getElementById("myPrin").style.display="none"; // Ocultar eleccion de ciudad al "Buscar"
                             document.getElementById("myResul1").style.display="block";
@@ -74,7 +83,7 @@
         $.get("datos.json",function(data){
             var encontrados;
                for(var i=0;i<data.length;i++){
-                 if (data[i].provincia==city){
+                 if ((data[i].provincia==city) && (data[i].tipo=="ciudad")){
                      if(city=="Malaga"){
                         data[i].provincia="Málaga";
                      } else if (city == "Almeria")
@@ -89,13 +98,35 @@
                      }
                     
                   encontrados+="<tr><td>"+data[i].combustible+"</td><td>"+data[i].provincia+"</td><td>"+data[i].ciudad+"</td><td>"+data[i].nombgasolinera+"</td><td>"+data[i].precio+"</td><td><a href="+data[i].url+">"+data[i].direccion+"</a></td></tr>";
-               }} 
+               }}
       
             $("#filas").html(encontrados);
              
             });
         };
-              
         
+        function resultsProv(city) {
+        $.get("datos.json",function(data){
+            var encontrados;
+               for(var i=0;i<data.length;i++){
+                 if ((data[i].provincia==city) && (data[i].tipo=="provincia")){
+                     if(city=="Malaga"){
+                        data[i].provincia="Málaga";
+                     } else if (city == "Almeria")
+                     {
+                        data[i].provincia="Almería";
+                     } else if(city=="Cadiz") {
+                        data[i].provincia="Cádiz";
+                     } else if(city=="Cordoba") {
+                        data[i].provincia="Córdoba";
+                     } else if( city=="Jaen"){
+                        data[i].provincia="Jaén";
+                     }
+                    
+                  encontrados+="<tr><td>"+data[i].combustible+"</td><td>"+data[i].provincia+"</td><td>"+data[i].ciudad+"</td><td>"+data[i].nombgasolinera+"</td><td>"+data[i].precio+"</td><td><a href="+data[i].url+">"+data[i].direccion+"</a></td></tr>";
+               }}
+      
+            $("#filas").html(encontrados);
              
-     
+            });
+        };

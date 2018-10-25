@@ -72,7 +72,8 @@
                 <option value="Sevilla">Sevilla</option>
               </select>
                 <br>
-                <input type="button" class="btn btn-block btn-block btn-primary" value="Buscar" onclick="mostrar()">
+                <input type="button" class="btn btn-block btn-block btn-primary" value="Buscar" onclick="mostrarCiudad()">
+                <input type="button" class="btn btn-block btn-block btn-primary" value="Buscar en provincia" onclick="mostrarProvincia()">
                 <a onclick="mostrarUbicacion()"><i class="fas fa-location-arrow" style="font-size:24px;"></i></a>
           </div>
         </div>
@@ -83,9 +84,8 @@
      <header class="masthead text-white text-center resul" id="myResul">
       <div class="overlay"></div>
      <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">RESULTADOS ENCONTRADOS</h1>
-         
-            
+           <!-- <h3 class="mb-5">RESULTADOS ENCONTRADOS</h3> -->
+
           <div class="card mb-3 text">
               <div class="table-responsives">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -95,8 +95,8 @@
                       <th>Provincia</th>
                       <th>Localidad</th>
                       <th>Empresa</th>
-                      <th>Precio (€) / Litro</th>
-                      <th>Google Maps</th>
+                      <th width:"20%">Precio €/L</th>
+                      <th>Ubicación</th>
                     </tr>
                   </thead>
                  

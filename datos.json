@@ -6,16 +6,18 @@
         "url":"https:\/\/goo.gl\/DoJ5jb",
         "nombgasolinera":"PETROPRIX",
         "precio":"1.228",
-		  "direccion":"Ubicación"
+	"direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
 	 {
         "combustible":"Diesel",
-		  "provincia": "Malaga",
-	     "ciudad": "Almargen",
+	"provincia": "Malaga",
+	"ciudad": "Almargen",
 		  "url":"https://www.google.com/maps/place/Agroolivarera+San+Cosme+Y+San+Damian/@37.0037232,-5.0282876,17z/data=!4m13!1m7!3m6!1s0xd72b291e8d28bdd:0xc40d0a663b471cc8!2sAv.+el+Saucejo,+29330,+M%C3%A1laga!3b1!8m2!3d37.0037232!4d-5.0260989!3m4!1s0xd72b28c273a6aeb:0xb39d95002078cd18!8m2!3d37.0040108!4d-5.0256731",
 		  "nombgasolinera":"AGROLIVARERA SAN COSME Y SAN DAMIAN",
 		  "precio":"1.179",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+                  "tipo":"provincia"
     },
     {
         "combustible":"Diesel",
@@ -24,7 +26,9 @@
         "url":"https:\/\/goo.gl\/nMHNAN",
         "nombgasolinera":"RADIOTAXI",
         "precio":"1.249",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
+     
     },
     {
         "combustible":"Diesel",
@@ -33,7 +37,8 @@
         "url":"https://www.google.com/maps/place/BALLENOIL+SAN+L%C3%9ACAR+DE+BARRAMEDA/@36.7632725,-6.3629549,17z/data=!4m8!1m2!2m1!1scalle+genil+1+sanlucar+de+barrameda+BALLENOIL!3m4!1s0x0:0x961654f1f427eace!8m2!3d36.764636!4d-6.3614447",
         "nombgasolinera":"BALLENOIL",
         "precio":"1.109",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Diesel",
@@ -42,7 +47,8 @@
         "url":"https:\/\/goo.gl\/Wv9Px4",
         "nombgasolinera":"MOOVE",
         "precio":"1.209",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Diesel",
@@ -51,7 +57,8 @@
         "url":"https://www.google.es/maps/place/37%C2%B004'49.4%22N+6%C2%B002'25.4%22W/@37.080389,-6.0425777,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.080389!4d-6.040389",
         "nombgasolinera":"CEPSA",
         "precio":"1.142",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Diesel",
@@ -60,7 +67,8 @@
         "url":"https:\/\/goo.gl\/1qTf7V",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.229",
-        "direccion":"Ubicación"
+        "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Diesel",
@@ -69,7 +77,8 @@
         "url":"https://www.google.es/maps/place/36%C2%B046'26.0%22N+2%C2%B048'07.2%22W/@36.773889,-2.8041887,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d36.773889!4d-2.802",
         "nombgasolinera":"SPLASH",
         "precio":"1.169",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Diesel",
@@ -78,7 +87,8 @@
         "url":"https:\/\/goo.gl\/yB6mNf",
         "nombgasolinera":"ENERPLUS",
         "precio":"1.219",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Diesel",
@@ -87,7 +97,8 @@
         "url":"https://www.google.com/maps/place/SOLAVANCE,+S.A./@37.9220369,-4.6479493,14z/data=!4m8!1m2!2m1!1sCTRA.+MADRID-CADIZ+km+382+alcolea!3m4!1s0x0:0x6eecf2432ea0f9c7!8m2!3d37.9128348!4d-4.6086144",
         "nombgasolinera":"REPSOL",
         "precio":"1.147",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Diesel",
@@ -96,7 +107,8 @@
         "url":"https:\/\/goo.gl\/qVK1o2",
         "nombgasolinera":"SHELL",
         "precio":"1.259",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Diesel",
@@ -105,7 +117,9 @@
         "url":"https://www.google.com/maps/place/SCA+ARROYO+GRANDE/@37.3108145,-7.3441643,18.25z/data=!4m5!3m4!1s0xd103bf16df2141d:0x8a8ee2917ede9423!8m2!3d37.3107363!4d-7.3442671",
         "nombgasolinera":"S.C.A ARROYO GRANDE",
         "precio":"1.143",
-		  "direccion":"CARRETERA AYAMONTE-ARACENA KM. 7"
+		  "direccion":"CARRETERA AYAMONTE-ARACENA KM. 7",
+        "tipo":"provincia"
+        
     },
     {
         "combustible":"Diesel",
@@ -114,7 +128,8 @@
         "url":"https:\/\/goo.gl\/1rETnj",
         "nombgasolinera":"PETROPRIX",
         "precio":"1.304",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Diesel",
@@ -123,7 +138,9 @@
         "url":"https://www.google.com/maps/place/Jaencoop/@38.2608951,-3.2134305,17z/data=!3m1!4b1!4m5!3m4!1s0xd6ee770efc69fa7:0x536c2074e7dac3a7!8m2!3d38.2608951!4d-3.2112418",
         "nombgasolinera":"JAENCOOP",
         "precio":"1.152",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
+        
     },
     {
         "combustible":"Diesel",
@@ -132,7 +149,9 @@
         "url":"https://www.google.com/maps/place/18312+Ventorros+de+la+Laguna,+Granada/@37.2024281,-4.2297754,17z/data=!4m8!1m2!2m1!1sVENTORROS+DE+LA+LAGUNA+CAMINO+DE+CALVILLO+S%2FN+gasolinera+GRANADA+LOJA!3m4!1s0xd7277f3702594d1:0x63cab2fafb94c5dc!8m2!3d37.2040816!4d-4.2297363",
         "nombgasolinera":"CAMPOAGRO OLIVARERA",
         "precio":"1.175",
-        "direccion":"Ubicación"
+        "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
+        
     },
 	 {
         "combustible":"Diesel",
@@ -141,7 +160,8 @@
         "url":"https:\/\/goo.gl\/xscxmG",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.197",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -150,7 +170,8 @@
         "url":"https:\/\/goo.gl\/DoJ5jb",
         "nombgasolinera":"PETROPRIX",
         "precio":"1.315",
-        "direccion":"Ubicación"
+        "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -159,7 +180,8 @@
         "url":"https://www.google.com/maps/place/San+Juan+S.Coop.Agr%C3%ADcola/@36.9979385,-4.4002781,13z/data=!4m8!1m2!2m1!1s+VILLANUEVA+DEL+ROSARIO+Gasolinera!3m4!1s0x0:0xd0c6aa63e2957725!8m2!3d36.9981914!4d-4.3660998",
         "nombgasolinera":"SAN JUAN-V.ROSARIO",
         "precio":"1.245",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -168,7 +190,8 @@
         "url":"https:\/\/goo.gl\/ks4Q4k",
         "nombgasolinera":"CLC",
         "precio":"1.329",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -177,7 +200,8 @@
         "url":"https://www.google.com/maps/place/BALLENOIL+SAN+L%C3%9ACAR+DE+BARRAMEDA/@36.7632725,-6.3629549,17z/data=!4m8!1m2!2m1!1scalle+genil+1+sanlucar+de+barrameda+BALLENOIL!3m4!1s0x0:0x961654f1f427eace!8m2!3d36.764636!4d-6.3614447",
         "nombgasolinera":"BALLENOIL",
         "precio":"1.249",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -186,7 +210,8 @@
         "url":"https:\/\/goo.gl\/q4Ag9E",
         "nombgasolinera":"E.S. PARQUE ALCOSA PREMIUM",
         "precio":"1.287",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
 	 {
         "combustible":"Gasolina 95",
@@ -195,7 +220,8 @@
         "url":"https://www.google.es/maps/place/37%C2%B010'34.8%22N+5%C2%B046'26.7%22W/@37.176333,-5.7762717,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.176333!4d-5.774083",
         "nombgasolinera":"E.S.VISTALEGRE",
         "precio":"1.239",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -204,7 +230,8 @@
         "url":"https:\/\/goo.gl\/DoFc9f",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.319",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -213,7 +240,8 @@
         "url":"https://www.google.com/maps/place/Gasolinera+Campoadra/@36.758575,-2.983488,16.5z/data=!4m8!1m2!2m1!1sAVENIDA+LEGION+ESPA%C3%91OLA,+2+almeria+campoadra!3m4!1s0x0:0xc8fae354fb3a0d44!8m2!3d36.7590669!4d-2.9832052",
         "nombgasolinera":"CAMPOADRA",
         "precio":"1.227",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -222,7 +250,8 @@
         "url":"https:\/\/goo.gl\/yB6mNf",
         "nombgasolinera":"ENERPLUS",
         "precio":"1.289",
-        "direccion":"Ubicación"
+        "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -231,7 +260,8 @@
         "url":"https://www.google.com/maps/place/Cooperativa+Olivarera+-+Lucena/@37.41468,-4.4863652,16z/data=!4m8!1m2!2m1!1sCalle+de+la+Fuensanta,+4,+Lucena+GASOLINERA!3m4!1s0x0:0x339c17d3f03e97f4!8m2!3d37.4141774!4d-4.4804505",
         "nombgasolinera":"COOPERATIVA LUCENA",
         "precio":"1.219",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -240,7 +270,8 @@
         "url":"https:\/\/goo.gl\/qVK1o2",
         "nombgasolinera":"SHELL",
         "precio":"1.329",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
 	 {
         "combustible":"Gasolina 95",
@@ -249,7 +280,8 @@
         "url":"https://www.google.com/maps/place/Gasolinera+Ballenoil/@37.2895328,-7.144057,17z/data=!3m1!4b1!4m5!3m4!1s0xd10325159c460a3:0x98874b2934b0eeee!8m2!3d37.2895328!4d-7.1418683",
         "nombgasolinera":"BALLENOIL",
         "precio":"1.277",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -258,7 +290,8 @@
         "url":"https:\/\/goo.gl\/1rETnj",
         "nombgasolinera":"PETROPRIX",
         "precio":"1.309",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -267,7 +300,8 @@
         "url":"https://www.google.com/maps/place/Jaencoop/@38.2539638,-3.1925017,12z/data=!4m12!1m6!3m5!1s0xd6ee770efc69fa7:0x536c2074e7dac3a7!2sJaencoop!8m2!3d38.2608951!4d-3.2112418!3m4!1s0xd6ee770efc69fa7:0x536c2074e7dac3a7!8m2!3d38.2608951!4d-3.2112418",
         "nombgasolinera":"JAENCOOP",
         "precio":"1.159",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 95",
@@ -276,7 +310,8 @@
         "url":"https:\/\/goo.gl\/xscxmG",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.285",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 95",
@@ -285,7 +320,8 @@
         "url":"https://www.google.com/maps/place/San+Isidro+de+Loja+SCA/@37.155955,-4.1304287,17z/data=!4m12!1m6!3m5!1s0xd72746c7f8906c7:0x8589c115bfeec8ca!2sSan+Isidro+de+Loja+SCA!8m2!3d37.155955!4d-4.12824!3m4!1s0xd72746c7f8906c7:0x8589c115bfeec8ca!8m2!3d37.155955!4d-4.12824",
         "nombgasolinera":"COOP SAN ISIDRO",
         "precio":"1.240",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -294,7 +330,8 @@
         "url":"https:\/\/goo.gl\/9fNrJf",
         "nombgasolinera":"EL TOMILLAR",
         "precio":"1.468",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -303,7 +340,8 @@
         "url":"https://www.google.es/maps/place/36%C2%B032'03.8%22N+4%C2%B038'02.9%22W/@36.534389,-4.6363277,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d36.534389!4d-4.634139",
         "nombgasolinera":"AGLA PETROLEROS MIJAS",
         "precio":"1.418",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -312,7 +350,8 @@
         "url":"https:\/\/goo.gl\/q8SXRY",
         "nombgasolinera":"REPSOL",
         "precio":"1.469",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -321,7 +360,8 @@
         "url":"https://www.google.es/maps/place/36%C2%B041'41.9%22N+6%C2%B009'28.1%22W/@36.6949722,-6.1599943,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d36.694972!4d-6.157806",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.380",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -330,7 +370,8 @@
         "url":"https:\/\/goo.gl\/j45NTN",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.427",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -339,7 +380,8 @@
         "url":"https://www.google.es/maps/place/37%C2%B012'33.3%22N+5%C2%B048'18.2%22W/@37.20925,-5.8072447,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.20925!4d-5.805056",
         "nombgasolinera":"CANGES DEL HOYO",
         "precio":"1.360",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -348,7 +390,8 @@
         "url":"https:\/\/goo.gl\/jyjLGM",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.409",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -357,7 +400,8 @@
         "url":"https://www.google.es/maps/place/36%C2%B046'16.0%22N+2%C2%B049'34.1%22W/@36.771111,-2.8283277,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d36.771111!4d-2.826139",
         "nombgasolinera":"GALP",
         "precio":"1.329",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -366,7 +410,8 @@
         "url":"https:\/\/goo.gl\/7QB8Rc",
         "nombgasolinera":"CEPSA",
         "precio":"1.449",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -375,7 +420,8 @@
         "url":"https://www.google.es/maps/place/38%C2%B016'32.1%22N+5%C2%B024'12.1%22W/@38.275583,-5.4055497,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d38.275583!4d-5.403361",
         "nombgasolinera":"REPSOL",
         "precio":"1.396",
-        "direccion":"Ubicación"
+        "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -384,7 +430,8 @@
         "url":"https:\/\/goo.gl\/ystVQY",
         "nombgasolinera":"CARREFOUR",
         "precio":"1.489",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -393,7 +440,8 @@
         "url":"https://www.google.es/maps/place/37%C2%B016'26.2%22N+6%C2%B059'27.7%22W/@37.273944,-6.9932167,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.273944!4d-6.991028",
         "nombgasolinera":"TAMOIL",
         "precio":"1.399",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -402,7 +450,8 @@
         "url":"https:\/\/goo.gl\/q1FrXV",
         "nombgasolinera":"TAMOIL",
         "precio":"1.399",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -411,7 +460,8 @@
         "url":"https://www.google.com/maps/place/Aceite+Oro+de+C%C3%A1nava/@37.8457317,-3.493021,17z/data=!3m1!4b1!4m5!3m4!1s0xd6e66ca546f6e6f:0x6492ddd73573a4cc!8m2!3d37.8457317!4d-3.4908323",
         "nombgasolinera":"S.C.A. NTRA. SRA. DE LOS REMDIO",
         "precio":"1.236",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     },
     {
         "combustible":"Gasolina 98",
@@ -420,7 +470,8 @@
         "url":"https:\/\/goo.gl\/xscxmG",
         "nombgasolinera":"ALCAMPO",
         "precio":"1.399",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"ciudad"
     },
     {
         "combustible":"Gasolina 98",
@@ -429,6 +480,7 @@
         "url":"https://www.google.es/maps/place/37%C2%B007'44.5%22N+3%C2%B036'12.1%22W/@37.129028,-3.6055497,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.129028!4d-3.603361",
         "nombgasolinera":"E.S. OGICAÑAS",
         "precio":"1.379",
-		  "direccion":"Ubicación"
+		  "direccion":"Abrir en Google Maps",
+        "tipo":"provincia"
     }
 ]

@@ -1,6 +1,6 @@
 # [Página para el proyecto del módulo 1]
 
-Esta página permite la búsqueda de la gasolinera más barata de cada día en tu ciudad.
+Esta página permite la búsqueda de la gasolinera más barata de cada día en tu ciudad o provincia.
 
 La página ha sido desarrollada utilizando un template creado por [Start Bootstrap](http://startbootstrap.com/).
 
